@@ -1,25 +1,31 @@
 import React, { useState } from 'react';
 import './signup.css';
+//  function submitButton(){
+//   isOpen(false);
+//  }
 
 function SignUp() {
   const [isOpen, setIsOpen] = useState(false);
-
+  function closePopup(){
+    setIsOpen(false);
+  }
+  function submitButton(){
+    setIsOpen(false);
+   }
   const handlePopup = () => {
+    let details=JSON.parse(localStorage.getItem("data")) || [];
     let firstName = document.querySelector(".first").value;
     let lastName = document.querySelector(".last").value;
     let phoneNumber = document.querySelector(".phone").value;
-    console.log(firstName,lastName, phoneNumber);
+    localStorage.setItem("data",JSON.stringify([...details,{firstName,lastName,phoneNumber}]));
 
     setIsOpen(true);
-
-
-
   };
 
   return (
     <div className='outline'>
       <div className='imageSection'>
-        <img src="./cow.jpeg" alt="no image" className='image' />
+         <img src="./cow.jpeg" alt="no image" className='image' /> 
         <div className='text'></div>
       </div>
       <div className='signup'>
@@ -29,20 +35,22 @@ function SignUp() {
         <input type="number" placeholder='Phone Number' className='phone' /><br></br>
         <button className='button' onClick={handlePopup}>Send OTP</button>
         {isOpen && (
-            <div>
-          <div className='pop-up'>
-                <input type="type" ></input>
-                <input type="type" ></input>
-                <input type="type" ></input>
-                <input type="type" ></input>
-                <input type="type" ></input>
-                <input type="type" ></input>
-            <div></div>
-          </div> 
-          </div>
+          <div id='main'>
+                <div className='pop-up'>
+                      <input type="text" ></input>
+                      <input type="text" ></input>
+                      <input type="text" ></input>
+                      <input type="text" ></input>
+                      <input type="text" ></input>
+                      <input type="text" ></input>
+                      <button id='button1' onClick={closePopup}>x</button>
+                  </div>
+                  <div>
+                    <button className='submit' onClick={submitButton}>submit</button>
+                  </div>
+                </div>
         )}
-       
-        <h4 className='login'>Already a member?   login </h4>
+        <h4 className='login'>Already a member? <span>login</span> </h4>
         <h3 className='enter'>Enter your details and start your journey with us.</h3>
         <p className='privacy'>By creating this account, you agree to our Privacy Policy & Cookie Policy.</p>
       </div>
@@ -51,4 +59,3 @@ function SignUp() {
 }
 
 export default  SignUp;
-
