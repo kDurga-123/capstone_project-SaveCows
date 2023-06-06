@@ -1,0 +1,135 @@
+.outline{
+    margin:auto;
+    width:1000px;
+    margin-top: 100px;
+    display: flex;
+    background-color: whitesmoke;
+    border: 2px solid green;
+    border-radius: 20px;
+}
+.imageSection{
+    height: 600px;
+    width: 500px;
+    border-radius: 20px;
+     /* background-image: url(../../public/cow.jpeg); */ 
+    /* position: relative; */
+    display: inline-block;
+  
+  
+}
+.signup{
+    height: 600px;
+    width: 500px;
+    border-radius: 20px;
+    border-radius: 0px 20px 20px 0px;
+    
+}
+.image{
+    height: 600px;
+    width: 500px;
+    border-radius: 20px 0px 0px 20px;
+}
+.first{
+    margin-top: 50px;
+    border: none;
+}
+input{
+    margin-left: 80px;
+    padding: 5px 10px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-style: italic;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    border: none;
+
+}
+.button{
+    padding: 5px 30px;
+    margin-top: 40px;
+    margin-left: 150px;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: lightgreen;
+    border: none;
+
+}
+
+.sign{
+    margin-left: 80px;
+    margin-top: 80px;
+    font-style: italic;
+    font-weight: bolder;
+}
+.login{
+    margin-left: 200px;
+    margin-top: 40px;
+}
+.privacy{
+    margin-left: 70px;
+    font-size: 10px;
+    
+}
+.enter{
+    margin-left: 40px;
+    font-size: 15px;
+}
+.message{
+    width: 600px;
+    height: 300px;
+    background-color: grey;
+}
+.pop-up > input{
+    height: 40px;
+    width: 40px;
+    border: 2px solid black;
+    margin-left: 10px;
+    font-size: 30px;
+}
+.submit{
+    margin-top: 10px;
+    margin-left: 180px;
+    margin-top: 50px;
+    padding: 5px 40px;
+    font-size: 20px;
+    background-color: lightgreen;
+    border-radius: 10px;
+    border: none;
+    
+}
+.container{
+    height: 450px;
+    width: 1000px;
+    border: 2px solid green;
+    margin:auto;
+    margin-top: 100px;
+    display: flex;
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+.cowImage{
+    height: 450px;
+    width: 500px;
+    border-radius: 20px 0px 0px 20px;
+}
+.loginDetails{
+    margin-left: 80px;
+    margin-top: 80px;
+    font-style: italic;
+    font-weight: bolder;
+
+}
+#main{
+    height: 250px;
+    width: 500px;
+    background-color: blue;
+    margin-left: -250px;
+    margin-top: -250px;
+   position: relative;
+}
+#button1{
+    margin-left: 30px;
+
+}
