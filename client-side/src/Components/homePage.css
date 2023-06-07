@@ -1,0 +1,80 @@
+.backgroundImage{
+    /* background-image: url("../../public/backgroundImage1.jpg"); */
+    background-image: url("../../public/image.png");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: repeat-x;
+    /* animation: scrollImages 10s linear infinite;  */
+     height: 1000px; 
+}
+@keyframes scrollImages {
+    0% { background-position: 0 0; } /* Start position */
+    100% { background-position: -200% 0; } /* End position (3 images * 100% each) */
+   } 
+.container{
+    display: flex;
+    
+}
+.Home{
+    margin-left: 500px;
+
+}
+.logo{
+    margin-left: 200px;
+}
+.careCow{
+    margin-left: 30px;
+}
+.MediSymCare{
+    margin-left: 30px;
+}
+.DocConnect{
+    margin-left: 30px;
+}
+.signUp{
+    margin-left: 30px;
+}
+.box{
+    height: 1000px;
+    width: 70px;
+    background-color: black;
+}
+.circle{
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    margin-top: 350px;
+    margin-left: 25PX;
+    border-radius: 20px;
+}
+.circle1{
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 25PX;
+    border-radius: 20px;
+}
+.circle2{
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 25PX;
+    border-radius: 20px;
+}
+.block1{
+    height: 300px;
+    width: 100%;
+    border: 2px solid black;
+}
+.image{
+    height: 300px;
+    width: 500px;
+    border: 2px solid black;
+    margin-left: 70px;
+}
+.care{
+    margin-left: 70px;
+    
+}

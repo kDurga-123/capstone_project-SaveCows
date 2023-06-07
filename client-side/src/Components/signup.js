@@ -10,7 +10,7 @@ function SignUp() {
     setIsOpen(false);
   }
   function submitButton(){
-    setIsOpen(false);
+    setIsOpen(true);
    }
   const handlePopup = () => {
     let details=JSON.parse(localStorage.getItem("data")) || [];
