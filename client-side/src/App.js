@@ -1,9 +1,9 @@
 //import React,{useState} from 'react';
 import './App.css';
 //import Popup from './Components/signup.js';
-// import Signup from './Components/signup.js';
+ //import Signup from './Components/signup.js';
 // import LoginPage from './Components/signup.jsx';
-import Homepage from './Components/homepage.jsx'
+ import Homepage from './Components/homepage.jsx'
 function App() {
     //const[isOpen,setIsOpen]=useState(false);
 

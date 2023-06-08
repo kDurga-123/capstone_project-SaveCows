@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import './signup.css';
-//  function submitButton(){
-//   isOpen(false);
-//  }
+
 
 function SignUp() {
   const [isOpen, setIsOpen] = useState(false);
