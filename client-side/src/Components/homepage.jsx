@@ -5,11 +5,6 @@ function Homepage(){
         <div>
                 <div className='backgroundImage'>
                         <div className='container'>
-                            <div className='box'>
-                                <div className='circle'></div>
-                                <div className='circle1'></div>
-                                <div className='circle2'></div>
-                            </div>
                             <h2 className='logo'>saveCows</h2>
                             <h2 className='Home'>Home</h2>
                             <h2 className='careCow'>careCow</h2>
@@ -17,6 +12,9 @@ function Homepage(){
                             <h2 className='DocConnect'>DocConnect</h2> 
                             <h2 className='signUp'>signUp</h2>
                             <h2 className='profile'>Profile</h2>
+                        </div>
+                        <div>
+                            <h1>durga</h1>
                         </div>
                 </div>
                 <h1 className='care'>Why?</h1>

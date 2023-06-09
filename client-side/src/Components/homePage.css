@@ -1,11 +1,41 @@
-.backgroundImage{
+/* .backgroundImage{
     background-image: url("../../public/resources/backgrond.png");
     background-size: cover; 
     background-position: center;
     background-repeat: repeat-x;
     animation: scrollImages 0s linear infinite; 
      height: 900px; 
-}
+} */
+.backgroundImage {
+    position: relative;
+    width: 100%;
+    height: 900px; /* Adjust height as needed */
+    overflow: hidden;
+  }
+  
+  .container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: slideshow 9s infinite;
+  }
+  @keyframes slideshow {
+    0%, 100% {
+      background-image: url("../../public/resources/doctor.jpg");
+    }
+    33%, 66% {
+      background-image: url("../../public/resources/doctor1.jpg");
+    }
+    50% {
+      background-image: url("../../public/resources/doctor3.jpg");
+    }
+  }
+  
 .container{
     display: flex;
     
