@@ -5,16 +5,16 @@ function Homepage(){
         <div>
                 <div className='backgroundImage'>
                         <div className='container'>
-                            <h2 className='logo'>saveCows</h2>
-                            <h2 className='Home'>Home</h2>
-                            <h2 className='careCow'>careCow</h2>
-                            <h2 className='MediSymCare'>Effects</h2>
-                            <h2 className='DocConnect'>DocConnect</h2> 
-                            <h2 className='signUp'>signUp</h2>
-                            <h2 className='profile'>Profile</h2>
+                            <h2 className='logo'>savecows</h2>
+                            <h2 className='Home'>home</h2>
+                            <h2 className='careCow'>carecow</h2>
+                            <h2 className='MediSymCare'>effects</h2>
+                            <h2 className='DocConnect'>doctordetails</h2> 
+                            <h2 className='signUp'>signup</h2>
+                            <h2 className='profile'>profile</h2>
                         </div>
                         <div>
-                            <h1>durga</h1>
+                        <h1>cow care</h1>
                         </div>
                 </div>
                 <h1 className='care'>Why?</h1>
