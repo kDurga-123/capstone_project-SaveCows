@@ -1,0 +1,188 @@
+.container{
+    display: flex;
+    background-color: navy;
+    
+}
+.Home{
+    margin-left: 500px;
+    color: white;
+
+}
+#logo{
+    margin-left: 200px;
+    color: white;
+}
+.careCow{
+    margin-left: 50px;
+    color: white;
+}
+.MediSymCare{
+    margin-left: 50px;
+    color: white;
+}
+.DocConnect{
+    margin-left: 50px;
+    color: white;
+}
+.signUp{
+    margin-left: 50px;
+    color: white;
+}
+.profile{
+    margin-left: 50px;
+    color: white;
+}
+.image{
+    background-image: url("../../public/resources/veterinary.avif");
+    height: 900px;
+    width: 1830px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -35px;
+}
+.available{
+    color: white;
+    font-size: 50px;
+    margin-left: 200px;
+    padding-top: 150px;
+    line-height: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+.milk{
+    color: sandybrown;
+    font-size: 40px;
+    margin-left: 100px;
+}
+.lose{
+     margin-left: 200px;
+     margin-top: -5px;
+}
+.emergency{
+    height: 300px;
+    width: 400px;
+    /* border: 2px solid red; */
+    margin-top: 215px;
+    margin-left: 100px;
+    background-color: aqua;
+}
+.cow{
+    display: flex;
+}
+.emergency2{
+    height: 300px;
+    width: 400px;
+    /* border: 2px solid red; */
+    margin-top: 215px;
+    background-color: navy;
+}
+.emergency3{
+    height: 300px;
+    width: 400px;
+    /* border: 2px solid red; */
+    margin-top: 215px;
+    background-color: aqua;
+}
+.emergency4{
+    height: 300px;
+    width: 400px;
+    /* border: 2px solid red; */
+    margin-top: 215px;
+    background-color: navy;
+
+}
+.doctor{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin-left: 150px;
+}
+.website{
+    text-align: center;
+}
+.qualified{
+    text-align: center;
+}
+.qualified1{
+    text-align: center;
+    color: white;
+}
+.website1{
+    text-align: center;
+    color: white;
+}
+.doctorPage{
+    height: 3500px;
+    width: 78%;
+    margin-left: 200px;
+    margin-right: 200px;
+    /* border: 2px solid black; */
+}
+/* .area{
+    margin-left: 500px;
+    font-size: 20px;
+    margin-top: 50px;
+} */
+.input{
+    padding: 5px 20px;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 500px;
+}
+.button{
+    padding: 5px 10px;
+    font-size: 20px;
+    background-color: navy;
+    color: white;
+}
+.doctorAvailable{
+    height: 400px;
+    width: 1300px;
+    border: 2px solid black;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 10px;
+    display: flex;
+
+}
+.veternary1{
+    height: 300px;
+    width: 300px;
+    /* border: 2px solid black; */
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.doctor1{
+    height: 300px;
+    width: 300px; 
+}
+.imag{
+    height: 50px;
+    width: 50px;
+}
+.details{
+    height: 300px;
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 50px;
+    /* border: 2px solid black; */
+}
+iframe{
+    height: 300px;
+    width: 500px;
+    margin-top: 50px;
+}
+.Available{
+    margin-left: 50px;
+    color: green;
+}
+.allDoctors{
+    margin-left: 50px;
+    color: orangered;
+}
+#footer{
+    height: 300px;
+    width: 100%;
+    /* margin-top: 30px; */
+    background-color: black;
+}

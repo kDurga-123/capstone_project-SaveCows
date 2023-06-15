@@ -3,22 +3,50 @@ import './homePage.css';
 function Homepage(){
     return (
         <div>
-                <div className='backgroundImage'>
+               
+            <div className='backgroundImage'>
                         <div className='container'>
-                            <h2 className='logo'>savecows</h2>
-                            <h2 className='Home'>home</h2>
-                            <h2 className='careCow'>carecow</h2>
-                            <h2 className='MediSymCare'>effects</h2>
-                            <h2 className='DocConnect'>doctordetails</h2> 
-                            <h2 className='signUp'>signup</h2>
-                            <h2 className='profile'>profile</h2>
+                            <h2 id='logo'>Savecows</h2>
+                            <h2 className='Home'>Home</h2>
+                            <h2 className='careCow'>Carecow</h2>
+                            <h2 className='MediSymCare'>Effects</h2>
+                            <h2 className='DocConnect'>Doctordetails</h2> 
+                            <h2 className='signUp'>Signup</h2>
+                            <h2 className='profile'>Profile</h2>
                         </div>
-                        <div>
-                        <h1>cow care</h1>
-                        </div>
+            </div>
+            <div className='image'>
+                <h1 className='available'>Find a Available veternary doctors</h1>
+                <h3 className='milk'>It doesn't matter how much milk you spill as long as <br>
+                </br><h3 className='lose'>you don't lose the cow.</h3></h3>
+                <div className='cow'>
+                    <div className='emergency'>
+                        <img src={'/resources/images.png'} alt="" className='doctor'/>
+                        <h3 className='qualified'>Qualified Doctors</h3>
+                        <p className='website'>These doctors provide medical advice,<br></br>  consultations,and treatment  services<br></br> through the website.</p>
+                    </div>
+                    <div className='emergency2'>
+                        <img src={'/resources/emergency.webp'} alt="" className='doctor'/>
+                        <h3 className='qualified1'>Emergency Care</h3>
+                        <p className='website1'>The website offers immediate emergency<br></br> veterinary care for your cow.</p>
+                    </div>
+                    <div className='emergency3'>
+                        <img src={'/resources/24hours.jpg'} alt="" className='doctor'/>
+                        <h3 className='qualified'>24 hours services</h3>
+                        <p className='website'>The website offers 24/7 emergency<br></br> veterinary service with qualified<br></br> doctors always available. </p>
+                    
+                    </div>
+                    <div className='emergency4'>
+                        <img src={'/resources/outdoor.jpg'} alt="" className='doctor'/>
+                        <h3 className='qualified1'>outdoor Checkup</h3>
+                        <p className='website1'>Doctors come to your location for convenient <br></br>outdoor checkups for your cow's medical<br></br>  needs, provided by the website.</p>
+                    
+                    </div>
+
                 </div>
+            </div>
                 <h1 className='care'>Why?</h1>
-                <div>
+                {/*  <div>
                         <div className='block1'>
                         <div className='image'>
                             <img src={"/resources/cow1.jpeg"} alt="no omage" className='cow1'/>
@@ -114,9 +142,9 @@ function Homepage(){
                             </div>
                             <div>
                                 <button className='button'>View More</button>
-                            </div>
+                            </div> */}
                         
-                    </div>
+                    {/* </div>
                 </div>
                 <div>
                     <h1 className='hindus'>Hindus worship the cows </h1>
@@ -131,8 +159,8 @@ function Homepage(){
                 <video className='vedio' controls>
                     <source src="/resources/cow.mp4" type="video/mp4" />
                 
-                </video>
-                <footer>
+                </video> */}
+                {/* <footer>
                     <div>
                         <div className='container1'>
                             <h4>About</h4>
@@ -142,8 +170,8 @@ function Homepage(){
                         </div>
                         
                     </div>
-                </footer>
+                </footer> */}
         </div>
-    )
-}
+    ) 
+            }  
 export default Homepage;
