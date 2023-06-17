@@ -1,5 +1,4 @@
-
-  .backgroundImage{
+.backgroundImage{
     position: absolute;
     top: 0;
     left: 0;
@@ -21,11 +20,6 @@
       background-image: url("../../public/resources/doctor3.jpg");
     }
   }
-  
-.container{
-    display: flex;
-    
-}
 .Home{
     margin-left: 500px;
 
@@ -56,8 +50,10 @@
  } 
  .container{
     display: flex;
-     background-color:#0099CC; 
     
+ }
+ .container:hover{
+    background-color:#0099CC; 
  }
 .Home{
     margin-left: 500px;
@@ -461,5 +457,11 @@ h1{
 h2{
     color: white;
 }
+
+
+
+
+
+
 
 
