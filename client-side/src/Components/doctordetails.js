@@ -16,7 +16,8 @@ function DoctorDetails(){
             </div>
             <div className='fullDiv'>
                   <div id='first'>
-
+                        <h1>The best doctor in the world is the veterinarian. They can't ask their patients what's the matter. They've just got to know.</h1>
+                        <button className='find'>find Doctor</button>
                   </div>
                   <div id='second'>
                          <img src='/resources/veternaryDoctor.jpg' alt='no image' className='veternaryDoctor'/>   

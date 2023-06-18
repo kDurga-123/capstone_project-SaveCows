@@ -1,6 +1,6 @@
 .container{
     display: flex;
-    background-color: #0099CC;
+    background-color: black;
     
 }
 .Home{
@@ -41,13 +41,26 @@
 #first{
     height: 900px;
     width:50%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    background-image: linear-gradient(to top, grey 0%, lightgrey 52%, blue 100%);
 }
 #second{
     height: 900px;
     width: 50%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 .veternaryDoctor{
-    height: 200px;
+    height: 900px;
+    width: 100%;
+}
+h1{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 70px;
+}
+.find{
+    padding: 5px 50px;
+    margin-left: 300px;
+    font-size: 30px;
+    margin-top: 30px;
 }

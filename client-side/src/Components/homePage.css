@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 90%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -14,10 +14,11 @@
       background-image: url("../../public/resources/doctor.jpg");
     }
     33%, 66% {
-      background-image: url("../../public/resources/doctor1.jpg");
+      background-image: url("../../public/resources/cow.jpeg");
+      color: white;
     }
     50% {
-      background-image: url("../../public/resources/doctor3.jpg");
+      background-image: url("../../public/resources/image.webp");
     }
   }
 .Home{
@@ -53,7 +54,7 @@
     
  }
  .container:hover{
-    background-color:#0099CC; 
+    background-color:white; 
  }
 .Home{
     margin-left: 500px;
@@ -91,7 +92,7 @@
 }
  
 .available{
-    color: #0099CC;
+    color: black;
     font-size: 50px;
     margin-left: 200px;
     padding-top: 150px;
@@ -100,7 +101,7 @@
     font-weight: bolder; 
  }
 .milk{
-    color:  #FFC0CB;
+    color:  black;
     font-size: 40px;
     margin-left: 100px;
     font-family: "Roboto";
@@ -109,82 +110,21 @@
      margin-left: 200px;
      margin-top: -5px;
 }
-.emergency{
-    height: 300px;
-    width: 400px;
-     /* border: 2px solid red;  */
-    margin-top: 150px;
-    margin-left: 70px;
-    background-color: #009900;
-    font-weight: 700;
-    opacity: 0.6;
-    border-radius: 20px;
-    
-}
-.emergency:hover{ 
-     background-color: #009900;
-    opacity: 1;
-}
+
+
 .cow{
     display: flex;
-}
-.emergency2{
-    height: 300px;
-    width: 400px;  
-    margin-top: 150px;
-    background-color:  #0099CC;
-    font-weight: 700;
-    border-radius: 20px;
-    margin-left: 20px;
-    opacity: 0.6;
-
-}
-.emergency2:hover{
-    background-color:  #0099CC;
-     opacity: 1;
-     border-radius: 20px;
 }
 h3{
     margin-left: 70px;
 }
-.emergency3{
-    height: 300px;
-    width: 400px; 
-     /* border: 2px solid red;  */
-     margin-top: 150px;
-    background-color: #009900;
-    font-weight: 700;
-    opacity: 0.6;
-    border-radius: 20px;
-    margin-left: 20px;
-    
-}
-.emergency3:hover{
-    background-color: #009900;
-    opacity: 1; 
-} 
- .emergency4{
-    height: 300px;
-    width: 400px;
-     /* border: 2px solid red;  */
-    margin-top: 150px;
-    background-color:  #0099CC;
-    font-weight: 700;
-    opacity: 0.6;
-    border-radius: 20px;
-    margin-left: 20px;
 
-}
-.emergency4:hover{
-    background-color: #0099CC;
-    opacity: 1; 
-    
- } 
+ 
 .doctor{
     height: 100px;
     width: 100px;
     border-radius: 50px;
-    margin-left: 150px;
+    margin-left: 100px;
 }
 .website{
     text-align: center;
@@ -194,17 +134,7 @@ h3{
     font-weight: 700px;
     
 }
-.qualified{ 
-     text-align: center;
-    opacity: 1;
-    font-weight: 700;
-}
-.qualified1{
-    text-align: center;
-    color: white;
-    opacity: 1;
-    font-weight: 1000;
-}
+
 .website1{
     text-align: center;
     color: white; 
@@ -457,11 +387,81 @@ h1{
 h2{
     color: white;
 }
-
-
-
-
-
-
-
+.saparate{
+    height: 300px;
+    width: 78%;
+    margin-left: 200px;
+    margin-top: -60px;
+    background-color: lightgrey;
+    border-radius: 50px;
+}
+.seeMore{
+    margin-left: 500px;
+    padding: 10px 50px;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.seeMore:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: lightgreen;
+}
+.emergency{
+    height: 200px;
+    width: 300px;
+   
+    margin-left: 40px;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 40px;
+    
+}
+.qualified{
+    margin-right: 30px;
+}
+.emergency:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.emergency2{
+    height: 200px;
+    width: 300px;
+   
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 40px;
+    
+}
+.emergency2:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.emergency3{
+    height: 200px;
+    width: 300px;
+   
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 40px;
+    
+}
+.emergency3:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.emergency4{
+    height: 200px;
+    width: 300px;
+   
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 40px;
+    
+}
+.emergency4:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.care{
+    margin-top: 30px;
+}
 

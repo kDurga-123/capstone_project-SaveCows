@@ -14,34 +14,37 @@ return (
                     <h2 className='signUp'>Signup</h2>
                     <h2 className='profile'>Profile</h2>
                 </div>
-
             <h1 className='available'>Find a Available veternary doctors</h1>
             <h3 className='milk'>It doesn't matter how much milk you spill as long as <br>
             </br><h3 className='lose'>you don't lose the cow.</h3></h3>
-            <div className='cow'>
+            <button className='seeMore'>See More</button>
+    </div>
+    </div>
+    
+    <div className='saparate'>
+        <div className='cow'>
                 <div className='emergency'>
                     <img src={'/resources/images.png'} alt="" className='doctor'/>
-                    <h3 className='qualified'>Qualified Doctors</h3>
-                    <p className='website'>These doctors provide medical advice,<br></br> consultations,and treatment services<br></br> through the website.</p>
+                    <h3   id='qualified'>Qualified Doctors</h3>
+                    {/* <p className='website'>These doctors provide medical advice,<br></br> consultations,and treatment services<br></br> through the website.</p> */}
                 </div>
                 <div className='emergency2'>
                     <img src={'/resources/emergency.webp'} alt="" className='doctor'/>
                     <h3 className='qualified1'>Emergency Care</h3>
-                    <p className='website1'>The website offers immediate emergency<br></br> veterinary care for your cow.</p>
+                    {/* <p className='website1'>The website offers immediate emergency<br></br> veterinary care for your cow.</p> */}
                 </div>
                 <div className='emergency3'>
                     <img src={'/resources/24hours.jpg'} alt="" className='doctor'/>
                     <h3 className='qualified'>24 hours services</h3>
-                    <p className='website'>The website offers 24/7 emergency<br></br> veterinary service with qualified<br></br> doctors always available. </p>
+                    {/* <p className='website'>The website offers 24/7 emergency<br></br> veterinary service with qualified<br></br> doctors always available. </p> */}
                 </div>
                 <div className='emergency4'>
                     <img src={'/resources/outdoor.jpg'} alt="" className='doctor'/>
                     <h3 className='qualified1'>outdoor Checkup</h3>
-                    <p className='website1'>Doctors come to your location for convenient <br></br>outdoor checkups for your cow's medical<br></br> needs, provided by the website.</p>
+                    {/* <p className='website1'>Doctors come to your location for convenient <br></br>outdoor checkups for your cow's medical<br></br> needs, provided by the website.</p> */}
                 </div>
 
         </div>
-    </div>
     </div>
                 <h1 className='care'>Why?</h1>
             <div>
