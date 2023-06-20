@@ -4,9 +4,9 @@ import './App.css';
 //  import Signup from './Components/signup.js';
 // import LoginPage from './Components/signup.jsx';
 //   import CowCare from './Components/cow care.js';
-  // import Homepage from './Components/homepage.jsx';
+//  import Homepage from './Components/homepage.jsx';
 //  import Effects from './Components/effects.jsx';
-   import DoctorDetails from './Components/doctordetails.js';
+  import DoctorDetails from './Components/doctordetails.js';
 function App() {
     //const[isOpen,setIsOpen]=useState(false);
     

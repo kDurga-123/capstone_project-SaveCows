@@ -22,7 +22,17 @@ function DoctorDetails(){
                   <div id='second'>
                          <img src='/resources/veternaryDoctor.jpg' alt='no image' className='veternaryDoctor'/>   
                   </div>
+
             </div>  
+            <div>
+                <div className='doctor'>
+                    <div className='firstBlock'>
+                        <img src={'/resources/cow.jpg'} alt="no image" className='image'/>
+                        <h2>doctor Details</h2>
+                        <button className='button'>know More</button>
+                    </div>
+                </div>
+            </div>
             
         </div> 
     )

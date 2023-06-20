@@ -15,7 +15,7 @@
 .careCow{
     margin-left: 50px;
     color: white;
-}
+}find
 .MediSymCare{
     margin-left: 50px;
     color: white;
@@ -63,4 +63,30 @@ h1{
     margin-left: 300px;
     font-size: 30px;
     margin-top: 30px;
+}
+.doctor{
+    display: flex;
+}
+.firstBlock{
+    height: 600px;
+    width: 30%;
+    border: 2px solid black;
+    margin-left: 200px;
+    background-color: skyblue;
+    margin-top: 50px;
+
+}
+.image{
+    height: 200px;
+    width: 200px;
+    margin-left: 300px;
+
+}
+h2{
+    color: white;
+    text-align: center;
+}
+.button{
+    padding: 10px 50px;
+    margin-left: 200px;
 }
