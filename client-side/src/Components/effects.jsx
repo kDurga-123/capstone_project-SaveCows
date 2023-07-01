@@ -1,5 +1,15 @@
 import React from 'react';
 import './effects.css'
+// function bovineRespiratory{
+//     const fetchData = () =>{
+//         fetch("http://localhost:5000/data").then((res)=>{
+//             return res.json();
+//         }).then((res)=>{
+//             setData(res);
+//             console.log(res);
+//         })
+//     }
+// }
 function Effects(){
     return(
         <div>
@@ -17,11 +27,11 @@ function Effects(){
             <div className='disease1'>
                 <div>
                     <input type='text' placeholder='search......' className='input'/>
-                    <button id='search'>search</button>
+                    <button id='search' onClick={bovineRespiratory()}>search</button>
                 </div>
                 <div>
                     <button>Bovine Respiratory Disease (BRD)</button>
-                    <button>Bovine Viral Diarrhea (BVD)</button>
+                    <button>Bovine VirRouter</button>
                     <button>Infectious Bovine Rhinotracheitis (IBR)</button>
                     <button>Bovine Tuberculosis (TB)</button>
                     <button>Foot-and-Mouth Disease (FMD)</button>
@@ -48,49 +58,8 @@ function Effects(){
                     <button>Dermatophilosis</button>
                     <button>Coccidiosis</button>
             </div>
-            {/* <div>
-                 <div className='Bovine'>
-                    </div>
-            </div> */}
-                 <div className='Bovine'>
-                    <div className='display'>
-                        <div className='Respiratory'>
-                            <img src={"/resources/bovine1.jpeg"} alt="no image" className='bovineImage'/>
-                            <h3 className='disease'>Bovine Respiratory Disease (BRD)</h3>
-                        </div>
-                        <div className='Disease'>
-                            <h2>Symtoms :</h2>
-                            <p className='paragraph'>Cattle with BRD may have a persistent, dry cough and may develop nasal discharge ranging
-                                from clear to thick and pus-like. They may breathe rapidly or struggle to breathe, show signs of 
-                                respiratory distress, and have an elevated body temperature. BRD can cause reduced appetite, weight loss,
-                                depression, lethargy, and may lead to eye and ear infections with redness, discharge, and swelling.
-                            </p>
-                            <h2>Disease :</h2> 
-                            <p className='paragraph'>Bovine Respiratory Disease (BRD) </p>
-                            <h2>Steps to take before Disease :</h2>
-                            <p className='paragraph'>
-                                To reduce the risk of BRD, follow your veterinarian's advice and vaccinate calves against pathogens like BVDV, IBRV, BRSV, and Mannheimia haemolytica by implementing a comprehensive vaccination program and maintaining booster shots.
-                            </p>
-                        </div>
-                    </div>
-                    <div className='final'>
-                        <h2>instructions to take :</h2>
-                        <p className='paragraph'><b>Isolation: </b>Separate the infected animal(s) from the rest of the herd to prevent the spread of the disease.
-                            This helps reduce the risk of transmission to healthy animals.<br></br>
-                            <b>Veterinary examination:</b> Contact a veterinarian for a thorough examination of the affected animal(s). The veterinarian will assess the severity of the disease, identify the causative pathogens, and recommend appropriate treatment options.<br></br>
-                            <b>Medication:</b> Follow the veterinarian's instructions regarding the prescribed medications, including antibiotics to target bacterial infections, and non-steroidal anti-inflammatory drugs (NSAIDs) to alleviate symptoms such as fever and 
-                            inflammation. Administer the medications as directed, paying close attention to dosage, frequency, and duration.
-                         </p>
-                         <h2>basic medicine</h2>
-                         <p className='paragraph'>
-                        <b>Antibiotics:</b> Antibiotics are prescribed to treat bacterial infections that often accompany BRD. Commonly used antibiotics for BRD include:
-                            <ul>
-                                <li>Tetracyclines: Examples include oxytetracycline and chlortetracycline.</li>
-                                <li>Macrolides: Examples include tulathromycin and tilmicosin.</li>
-                                <li>Fluoroquinolones: Examples include enrofloxacin and danofloxacin.</li>
-                            </ul>
-                         </p>
-                    </div>
+            
+            <div>
                     <button className='button'>view More</button>
                 </div> 
             <div className='bone'>

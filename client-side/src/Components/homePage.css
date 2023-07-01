@@ -192,14 +192,7 @@ h3{
     background-color: #0099CC;
     border-radius: 10px;
 }
-.block2{
-    height: 300px;
-    width: 78%;
-    margin-left: 200px;
-    margin-right: 200px;
-   
-    display: flex;
-}
+
 .text5{
     height: 300px;
     width: 700px;
@@ -464,4 +457,12 @@ h2{
 .care{
     margin-top: 30px;
 }
-
+.new{
+    height: 500px;
+    width: 77%;
+    margin-left: 200px;
+    border: 2px solid black;
+    margin-top: 30px;
+    border-radius: 30px;
+    
+}

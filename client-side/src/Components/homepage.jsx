@@ -46,58 +46,11 @@ return (
 
         </div>
     </div>
-                <h1 className='care'>Why?</h1>
-            <div>
-                <div className='block1'>
-                    <div className='image2'>
-                    <img src={"/resources/cow1.jpeg"} alt="no omage" className='cow1'/>
-                </div>
-                <div className='text7'>
-                    <h1>Historical Importance</h1>
-                    <p className='IndianCulture'> 
-                    The cow is considered sacred in Hinduism, the predominant 
-                    religion in India. It is revered as a symbol of divine and
-                    maternal qualities. Hindu scriptures describe the cow as a
-                    giver of life and sustenance, and it is associated with various deities
-                    like Lord Krishna and Goddess Kamadhen .
-                    </p> 
-                    <button className='know'>Know more</button>
-                </div>
-
-            </div>
-                <div className='block2'>
-                    <div className='text5'>
-                        <h1>Nutritional Importance</h1>
-                        <p className='nutritionalImportence'>
-                        Cows are seen as a symbol of abundance, fertility, and purity in Indian culture.
-                        They represent prosperity and are often depicted in religious rituals, ceremonies, 
-                        and traditional art forms. Cow motifs can be found in ancient sculptures, paintings,
-                        and even on Indian currency notes.
-                        </p>
-                        <button className='know'>Know More</button>
-                     </div>
-                    <div className='image1'>
-                        <img src={"/resources/cow2.jpg"} alt="no omage" className='cow2'/> 
-                    </div>
-
-                </div>
-                <div className='block3'>
-                        <div className='image9'>
-                            <img src={"/resources/cow2.avif"} alt="no omage" className='cow3'/>
-                        </div>
-                        <div className='text6'>
-                            <h1 className='practice'>Traditional Practices</h1>
-                            <p className='TraditionalPractices'>
-                            In rural areas of India, cow rearing and dairy farming have been traditional 
-                            occupations for many communities. The practice of cow worship, feeding stray 
-                            cows, and donating cows to temples or charitable organizations are common 
-                            customs observed by devout Hindus.
-                            </p> 
-                            <button className='know'>know More</button>
-                        </div>
-
-                    </div>
-                </div>
+    <div className='new'>
+        <button>Historical Importance</button>
+        <button>Nutritional Importance</button>
+        <button>Agricultural Revolution</button>
+    </div>
                 <div> 
                     <div id='types'>
                         <h1 className='center'>Various Cows</h1>

@@ -1,0 +1,68 @@
+h1{
+    color: red;
+}
+.name{
+    padding: 5px 60px;
+}
+button{
+    padding: 5px 50x;
+    background-color: aqua;
+}
+.main{
+    height: 70px;
+    width: 100%;
+    background-color: navy;
+}
+.container{
+    display: flex;
+    background-color: navy;
+    
+}
+.Home{
+    margin-left: 500px;
+    color: white;
+
+}
+#logo{
+    margin-left: 200px;
+    color: white;
+}
+.careCow{
+    margin-left: 50px;
+    color: white;
+}
+.MediSymCare{
+    margin-left: 50px;
+    color: white;
+}
+.DocConnect{
+    margin-left: 50px;
+    color: white;
+}
+.signUp{
+    margin-left: 50px;
+    color: white;
+}
+.profile{
+    margin-left: 50px;
+    color: white;
+}
+input{
+    margin : 50px 0px 0px 100px;
+    padding: 10px 80px;
+
+}
+.fetch{
+    height: 900px;
+    width: 100%;
+    border: 2px solid black;
+}
+.total{
+    height:500px;
+    width: 50%;
+    border: 2px solid red;
+}
+.image{
+    height:300px;
+    width: 50%;
+}
