@@ -2,6 +2,8 @@
 const express = require('express');
 const mysql = require('mysql');
 const cors = require("cors");
+// const babel=require('@babel/polyfill');
+
 
 // Create an instance of Express
 const app = express();
@@ -34,8 +36,8 @@ app.get("/search/:diease",async(req,res) =>{
         res.status(200).send(result);
     })
 })
-const port = 5011;
-app.listen(5011, () => {
+const port = 5013;
+app.listen(5013, () => {
     console.log(`Server running on port ${port}`);
   }); 
 app.on('listening', function() {
