@@ -26,8 +26,8 @@ function Effects(){
             </div>
             <div className='disease1'>
                 <div>
-                    <input type='text' placeholder='search......' className='input'/>
-                    <button id='search' onClick={bovineRespiratory()}>search</button>
+                    {/* <input type='text' placeholder='search......' className='input'/>
+                    <button id='search' onClick={bovineRespiratory()}>search</button> */}
                 </div>
                 <div>
                     <button>Bovine Respiratory Disease (BRD)</button>

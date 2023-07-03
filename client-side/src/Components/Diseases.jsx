@@ -11,7 +11,7 @@ const Diseases = () => {
         setSearchData(event.target.value);
     };
     const fetchData = () => {
-        fetch("http://localhost:5007/data").then((res) => {
+        fetch("http://localhost:5011/data").then((res) => {
             return res.json();
         }).then((res) => {
             setData(res);
@@ -19,7 +19,7 @@ const Diseases = () => {
         })
     }
     function search() {
-        fetch(`http://localhost:5007/search/${searchData}`).then((res) => {
+        fetch(`http://localhost:5011/search/${searchData}`).then((res) => {
             return res.json();
         }).then((res) => {
             setData(res);
@@ -43,12 +43,18 @@ const Diseases = () => {
                     <h2 className='profile'>profile</h2>
                 </div>
             </div>
+
+            <div className="mainImage">
+                <img src={'/resources/image.webp'} alt="no image" className="small"/>
+                
+            </div>
             <div style={{display:"flex"}}>
-                <input type="name" placeholder="search" onChange={handleChange} value={searchData} />
-                <div onClick={()=>{clearData()}} className="clear">clear</div>
+                <input type="name" onChange={handleChange} value={searchData}  />
+                <div onClick={()=>{clearData()}} className="clear"><img src={'/resources/clear4.png'}/></div>
             </div>
         </div>
-        <h1 className="welcome">
+        
+        <div className="welcome">
             {
 
                 (data?.filter(function (e) {
@@ -56,19 +62,16 @@ const Diseases = () => {
                         return data;
                     }
                 })?.map(({ DiseaseName, Instructions, symptoms, image }) =>
-                    <div className="mainFunction">
-                        <div className="fetch">
                             <div className="total">
-                                <h1 className="DiseaseName">{DiseaseName}</h1>
-                                <p className="Instructions">{Instructions}</p>
-                                <div className="symptoms">{symptoms}</div>
+                            
                                 <img src={image} className="image" />
+                                <h3 className="DiseaseName">{DiseaseName}</h3>
+                                <div className="symptoms"><h3 className="ins"> symptoms :</h3>{symptoms}</div>
+                                <p className="Instructions"><h3 className="ins">Instructions :</h3>{Instructions}</p>
                             </div>
-                        </div>
-                    </div>
                 ))
             }
-        </h1>
+        </div>
 
     </div>)
 }

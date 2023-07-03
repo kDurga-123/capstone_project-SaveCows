@@ -34,35 +34,10 @@ app.get("/search/:diease",async(req,res) =>{
         res.status(200).send(result);
     })
 })
-
-
-
-// app.get("/search/:diease",async(req,res) =>{
-//     var parameters = req.params.diease
-//     var parameters="sis";
-//     console.log(parameters);
-//     var getTableData = `SELECT * FROM DiseasesTable where DiseaseName LIKE '%${parameters}%'`;
-//     con.query(getTableData, function(err, result){
-//         if(err) throw err;
-//         // alert("Data added successfully!")
-//         res.status(200).send(result);
-//     })
-// })
-
-
-
-
-
-
-
-
-
-
-
-const port = 5007;
-app.listen(5007, () => {
+const port = 5011;
+app.listen(5011, () => {
     console.log(`Server running on port ${port}`);
   }); 
 app.on('listening', function() {
     console.log('Express server started on port %s at %s', app.address().port, app.address().address);
-});
+})

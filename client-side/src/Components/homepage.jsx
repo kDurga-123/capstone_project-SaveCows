@@ -14,10 +14,12 @@ return (
                     <h2 className='signUp'>Signup</h2>
                     <h2 className='profile'>Profile</h2>
                 </div>
-            <h1 className='available'>Find a Available veternary doctors</h1>
-            <h3 className='milk'>It doesn't matter how much milk you spill as long as <br>
-            </br><h3 className='lose'>you don't lose the cow.</h3></h3>
-            <button className='seeMore'>See More</button>
+            <div className='photo'>
+                <h1 className='available'>Find a Available veternary doctors</h1>
+                <h3 className='milk'>It doesn't matter how much milk you spill as long as <br>
+                </br><h3 className='lose'>you don't lose the cow.</h3></h3>
+                <button className='seeMore'>See More</button>
+            </div>
     </div>
     </div>
     

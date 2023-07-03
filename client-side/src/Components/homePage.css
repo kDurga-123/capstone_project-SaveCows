@@ -7,7 +7,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    animation: slideshow 9s infinite;
+    animation: slideshow 30s infinite;
   }
   @keyframes slideshow {
     0%, 100% {
@@ -102,13 +102,17 @@
  }
 .milk{
     color:  black;
-    font-size: 40px;
-    margin-left: 100px;
-    font-family: "Roboto";
+    font-size: 30px;
+    margin-left: 250px;
+    font-weight: lighter;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .lose{
      margin-left: 200px;
      margin-top: -5px;
+     font-size: 30px;
+     font-weight: lighter;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
