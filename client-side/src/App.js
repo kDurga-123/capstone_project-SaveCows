@@ -1,19 +1,13 @@
-import React,{useState} from 'react';
-import './App.css';
-//import Popup from './Components/signup.js';
-import Signup from './Components/signup.js';
-import LoginPage from './Components/signup.jsx';
+import React, { useState } from 'react';
+ import Diseases from "./Components/Diseases";
+// import Effects from './Components/effects';
 function App() {
-    const[isOpen,setIsOpen]=useState(false);
-
-    return(
-        <div>
-            {/* <Signup /> */}
-            {/* <LoginPage />  */}
-            ({!isOpen ?  <Signup /> : <LoginPage/> });
-            {/* ({setIsOpen ? <LoginPage/>:<Signup /> }) */}
-        </div>
-    );
+  return (
+    <div>
+      <Diseases />
+      {/* <Effects/> */}
+    </div>
+  );
 }
 export default App;
 

@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import './signup.css';
-//  function submitButton(){
-//   isOpen(false);
-//  }
+
 
 function SignUp() {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,7 +8,7 @@ function SignUp() {
     setIsOpen(false);
   }
   function submitButton(){
-    setIsOpen(false);
+    setIsOpen(true);
    }
   const handlePopup = () => {
     let details=JSON.parse(localStorage.getItem("data")) || [];
