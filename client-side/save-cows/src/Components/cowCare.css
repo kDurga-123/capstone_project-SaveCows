@@ -1,0 +1,188 @@
+.home-blog{
+    display: flex;
+    background-color: navy;
+    
+}
+.Home{
+    margin-left: 500px;
+    color: white;
+
+}
+#logo{
+    margin-left: 200px;
+    color: white;
+}
+.careCow{
+    margin-left: 50px;
+    color: white;
+}
+.MediSymCare{
+    margin-left: 50px;
+    color: white;
+}
+.DocConnect{
+    margin-left: 50px;
+    color: white;
+}
+.signUp{
+    margin-left: 50px;
+    color: white;
+}
+.profile{
+    margin-left: 50px;
+    color: white;
+}
+.logo{
+    height: 30px;
+    width: 30px;
+    margin-right: 100px;
+    margin-left: -0px; 
+    /* border-radius: 2px solid black; */
+}
+.input{
+    padding: 5px 60px;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 35%;
+}
+.shelter{
+    height: 2000px;
+    width: 1450px;
+    /* border: 2px solid black; */
+    margin-left: 200px;
+    background-color: lightgrey;
+    border-radius: 20px;
+    margin-top: 50px;
+    
+}
+.care{
+    margin-left: 200px;
+    color: teal;
+}
+h2{
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.image2{
+    height: 300px;
+    width: 600px;
+    border-radius: 20px;
+
+}
+.first{
+    display: flex;
+}
+
+
+
+p{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: 10px;
+    line-height: 30px;
+}
+.image1{
+    height: 300px;
+    width: 600px;
+    /* border: 2px solid black; */
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+
+}
+.text{
+    height: 300px;
+    width: 850px;
+    /* border: 2px solid black; */
+    margin-left: 10px;
+}
+#button{
+    height: 100px;
+    width: 600px;
+    /* border: 2px solid black; */
+    margin-left: 630px;
+    margin-top: -120px;
+}
+.explore{
+    padding: 5px 30px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 40px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.Feeding{
+    height: 400px;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-top: 30px;
+    display: flex;
+}
+.explore1{
+    padding: 5px 30px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 40px;
+    border-radius: 10px;
+    margin-top: -20px;
+    
+}
+.image3{
+    height: 310px;
+    width: 600px;
+    /* border: 2px solid black; */
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.text1{
+    height: 250px;
+    width: 900px;
+    /* border: 2px solid black; */
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.Health{
+    height: 400px;
+    width: 100%;
+    /* border: 2px solid black; */
+    /* margin-top: -30px; */
+    display: flex;
+}
+.explore2{
+    padding: 5px 30px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 40px;
+    border-radius: 10px;
+    margin-top: -100px;
+}
+.Grooming{
+    height: 400px;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-top: 30px;
+    display: flex;
+}
+.Exercise{
+    height: 400px;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-top: 30px;
+    display: flex;
+}
+.viewMore{
+    padding: 5px 40px;
+    margin-left: 550px;
+    font-size: 30px;
+    /* margin-top: 20px; */
+    border-radius: 20px;
+    background-color: skyblue;
+}
+.footer{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+}
